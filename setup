@@ -23,7 +23,7 @@ case "$1" in
 		echo "Cleaning up bundle and .vimrc"
 		
 		# remove bundle contents
-		rm -rf bundle/*
+		rm -rf bundle/*/
 
 		# remove ~/.vimrc
 		rm ~/.vimrc
