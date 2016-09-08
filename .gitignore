@@ -1,0 +1,3 @@
+# Ingore vundle files, use setup install
+bundle/*
+

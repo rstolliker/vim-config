@@ -1,0 +1,35 @@
+!#/bin/bash
+
+# This tool sets up vim with vundle
+# Can also clean by deleting files and directories
+# After cloning this repo, run this program
+
+
+case "$1" in
+
+	install)
+		echo "Now installing vim"
+		# Clones vundle to bundle directory
+		git clone https://github.com/VundleVim/Vundle.vim.git bundle/Vundle.vim
+
+		# make symbolic link to vimrc
+		ln -s vimrc ~/.vimrc
+
+		# install vundle plugins
+		vim +PluginInstall +qall
+		;;
+	
+	clean)
+		echo "Cleaning up bundle and .vimrc"
+		
+		# remove bundle contents
+		rm -rf bundle/*
+
+		# remove ~/.vimrc
+		rm ~/.vimrc
+		;;
+
+	*)
+		echo "Please select either \"install\" or \"clean\""
+
+esac
