@@ -35,14 +35,9 @@ filetype plugin indent on    " required
 syntax enable
 
 " enable colorscheme
-<<<<<<< HEAD
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
-=======
-"set background=dark
-"colorscheme solarized
->>>>>>> 0646d39cc34b7ef1e787d9a5c6886b11cd57b915
 
 " whitespace
 set tabstop=4
