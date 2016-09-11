@@ -14,7 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 
 " colorscheme
-"Plugin 'altercation/Vim-colors-solarized'
+Plugin 'altercation/Vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
