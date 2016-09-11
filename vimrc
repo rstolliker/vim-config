@@ -36,6 +36,7 @@ syntax enable
 
 " enable colorscheme
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 
 " whitespace
