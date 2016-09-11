@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 # This tool sets up vim with vundle
 # Can also clean by deleting files and directories
